@@ -15,7 +15,7 @@ if (answer.ToLower().Equals("y"))
     if (!string.IsNullOrEmpty(extension))
     {
         Console.WriteLine($"Possible File Extension {extension}");
-        Console.WriteLine("? (Y/N)");
+        Console.WriteLine("Want to add your own? (Y/N)");
         answer = Console.ReadLine();
         if (answer.ToLower().Equals("y"))
         {
